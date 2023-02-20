@@ -9,13 +9,13 @@ console.log(newArr.reverse());
 
 // // * Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует все числа от 1 до введенного пользователем числа. Например: 5 -> 15 (потому что 1 + 2 + 3 + 4 + 5 = 15), 10 -> 55
 
-// const arr = [5, 15, 45];
+const arr = [5, 15, 45];
 
-// const sum = arr.reduce((totalNum, value) => {
-//   return totalNum + value;
-// }, 0);
+const sum = arr.reduce((totalNum, value) => {
+  return totalNum + value;
+}, 0);
 
-// console.log(sum);
+console.log(sum);
 
 
 

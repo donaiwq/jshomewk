@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: black;
+}
+h2 {
+  margin-top: 30px;
+  color: rgb(214, 2, 238);
+  font-family: 'Sassy Frass', cursive;  text-align: center;
+  font-size: 50px;
+}
+.box__desc {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  row-gap: 50px;
+  color: rgb(214, 2, 238);
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  width: 430px;
+  flex-wrap: wrap;
+}
+.numberbox {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.randomizer {
+  background-color: transparent;
+  border-left: 2px solid rgb(184, 184, 16);
+  border-right: 2px solid rgb(60, 66, 176);
+  border-bottom: 2px solid rgb(163, 19, 189);
+  border-top: 2px solid rgb(227, 20, 137);
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5%;
+  color: rgb(214, 2, 238);
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  outline:none ;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 50%;
+  border-left: 2px solid rgb(184, 184, 16);
+  border-right: 2px solid rgb(60, 66, 176);
+  border-bottom: 2px solid rgb(163, 19, 189);
+  border-top: 2px solid rgb(227, 20, 137);
+  height: 90px;
+  cursor: pointer;
+  color: #fff;
+  cursor: pointer;
+}
+.boxes:hover {
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.boxrotate {
+  transition: 1s;
+  transform: rotate(360deg);
+}
