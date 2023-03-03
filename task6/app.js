@@ -1,32 +1,32 @@
 // * Написать функцию которая маскирует номер банковской карты. Например: maskCard("4815154823541789") -> "481515XXXXXX1789". Должны быть видны первые 6 и последние 4 символа, остальные скрыть символом(по умолчанию Х). Причем сделать так чтобы скрывающий символ можно было передавать как параметр. Например: maskCard("4815154823541789", "*") -> "481515******1789".
 
 
-// const bankNum ='4815154823541789'
-// function coverNum(bankCode) {
-//   let result = ''
+const bankNum ='4815154823541789'
+function coverNum(bankCode) {
+  let result = ''
   
-//   for (let i = 0; i < bankCode.length;i++) {
-//     if (i>=5 && i <=11 ) {
-//       result = result+'X'
-//     } else {
-//       result = result+bankCode[i]
-//     }
-//   }
-//   return result
-// }
-// coverNum(bankNum)
-// console.log(coverNum(bankNum));
+  for (let i = 0; i < bankCode.length;i++) {
+    if (i>=5 && i <=11 ) {
+      result = result+'X'
+    } else {
+      result = result+bankCode[i]
+    }
+  }
+  return result
+}
+coverNum(bankNum)
+console.log(coverNum(bankNum));
 
 // * Написать функцию капитализации строк. Например: capitalizeString("ЕВГЕНИЙ") -> "Евгений"; capitalizeString("иВАНОВ") -> "Иванов"; Капитализация - это процесс преобразования строки, когда первая буква становится заглавной, а остальные строчными.
 
 
 
-// function capitalize(name) {
-//   let firstLetter = name[0].toUpperCase()
-//   let result =name.toLowerCase().slice(1)
-//   return firstLetter + result 
-// }
-// console.log(capitalize('ЕВГЕНИЙ'));
+function capitalize(name) {
+  let firstLetter = name[0].toUpperCase()
+  let result =name.toLowerCase().slice(1)
+  return firstLetter + result 
+}
+console.log(capitalize('ЕВГЕНИЙ'));
 
 
 

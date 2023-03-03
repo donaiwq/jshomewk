@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  height: 30px;
+  width: 88px;
+  margin-top: 20px;
+  background: rgb(253, 180, 253);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 5%;
+}
+
+.timer{
+  font-size: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid rgb(132, 2, 161);
+ color: rgb(89, 28, 89);
+}
